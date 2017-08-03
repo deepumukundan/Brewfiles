@@ -1,7 +1,8 @@
 cask_args appdir: "/Applications"
 
 # Command line tools
+brew 'ghostscript'
+brew 'imagemagick'
 
 # Applications
-cask 'bittorrent'
-cask 'torbrowser'
+cask 'hipchat'
