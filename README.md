@@ -12,7 +12,7 @@ brew tap Homebrew/bundle
 
 Install brew packages using brew bundle command below
 ```shell
-git clone https://github.com/deepumukundan/Brewfiles.git Brewfiles
+git clone git@github.com:deepumukundan/Brewfiles.git
 cd Common
 brew bundle
 cd ..
