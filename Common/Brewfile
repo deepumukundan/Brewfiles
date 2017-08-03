@@ -32,6 +32,7 @@ brew 'youtube-dl'
 
 # Applications
 cask 'airserver'
+cask 'alfred'
 cask 'anybar'
 cask 'atom'
 cask 'awareness'
