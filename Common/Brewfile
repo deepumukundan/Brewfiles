@@ -2,6 +2,7 @@ cask_args appdir: "/Applications"
 
 tap 'kylef/formulae'
 tap 'thoughtbot/formulae'
+tap 'caskroom/cask'
 
 # Command line tools
 brew 'bash-completion'
@@ -53,6 +54,7 @@ cask 'jiggler'
 cask 'knuff'
 cask 'marked'
 cask 'nvalt'
+cask 'origami-studio'
 cask 'osxfuse'
 cask 'rocket'
 cask 'skype'
