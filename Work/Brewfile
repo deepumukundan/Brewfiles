@@ -6,3 +6,4 @@ brew 'imagemagick'
 
 # Applications
 cask 'hipchat'
+cask 'charles'
