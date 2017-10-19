@@ -5,5 +5,4 @@ brew 'ghostscript'
 brew 'imagemagick'
 
 # Applications
-cask 'hipchat'
 cask 'charles'
