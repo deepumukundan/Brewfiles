@@ -18,4 +18,7 @@ brew bundle
 cd ..
 cd Personal
 brew bundle
+cd ..
+cd Work
+brew bundle
 ```
