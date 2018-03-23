@@ -1,70 +1,118 @@
 cask_args appdir: "/Applications"
 
-tap 'kylef/formulae'
-tap 'thoughtbot/formulae'
-tap 'caskroom/cask'
+tap "caskroom/cask"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "kylef/formulae"
+tap "thoughtbot/formulae"
+tap "vapor/tap"
 
 # Command line tools
-brew 'bash-completion'
-brew 'carthage'
-brew 'chisel'
-brew 'cloc'
-brew 'git-lfs'
-brew 'git'
-brew 'gitup'
-brew 'htop'
-brew 'jq'
-brew 'librsvg'
-brew 'lua'
-brew 'marathon-swift'
-brew 'markdown'
-brew 'mas'
-brew 'pick'
-brew 'rbenv'
-brew 'swiftenv'
-brew 'swiftformat'
-brew 'swiftlint'
-brew 'tmux'
-brew 'tree'
-brew 'wget'
-brew 'youtube-dl'
+brew "atlassian-cli"
+brew "bash-completion"
+brew "carthage"
+brew "chisel"
+brew "cloc"
+brew "ffmpeg"
+brew "ghostscript"
+brew "git-lfs"
+brew "git"
+brew "gitup"
+brew "htop"
+brew "imagemagick"
+brew "jq"
+brew "kylef/formulae/swiftenv"
+brew "librsvg"
+brew "lua"
+brew "marathon-swift"
+brew "markdown"
+brew "mas"
+brew "pick"
+brew "rbenv"
+brew "swiftformat"
+brew "swiftlint"
+brew "tmux"
+brew "tree"
+brew "vapor/tap/vapor"
+brew "wget"
+brew "youtube-dl"
 
 # Applications
-cask 'airserver'
-cask 'alfred'
-cask 'anybar'
-cask 'atom'
-cask 'awareness'
-cask 'bartender'
-cask 'cocoarestclient'
-cask 'coconutbattery'
-cask 'controlplane'
-cask 'cyberduck'
-cask 'daisydisk'
-cask 'dash'
-cask 'github-desktop'
-cask 'hammerspoon'
-cask 'handbrake'
-cask 'hazel'
-cask 'imagealpha'
-cask 'imageoptim'
-cask 'iteleport-connect'
-cask 'iterm2'
-cask 'jadengeller-helium'
-cask 'jiggler'
-cask 'karabiner-elements'
-cask 'knuff'
-cask 'marked'
-cask 'origami-studio'
-cask 'osxfuse'
-cask 'postman'
-cask 'rocket'
-cask 'skype'
-cask 'smcfancontrol'
-cask 'sourcetree'
-cask 'spotify'
-cask 'teamviewer'
-cask 'tokens'
-cask 'virtualbox'
-cask 'vlc'
-cask 'wwdc'
+cask "airserver"
+cask "alfred"
+cask "android-studio"
+cask "anybar"
+cask "atom"
+cask "awareness"
+cask "bartender"
+cask "charles"
+cask "cocoarestclient"
+cask "coconutbattery"
+cask "controlplane"
+cask "cyberduck"
+cask "daisydisk"
+cask "dash"
+cask "docker-toolbox"
+cask "docker"
+cask "github-desktop"
+cask "hammerspoon"
+cask "handbrake"
+cask "hazel"
+cask "hipchat"
+cask "hockey"
+cask "imagealpha"
+cask "imageoptim"
+cask "iteleport-connect"
+cask "iterm2"
+cask "jadengeller-helium"
+cask "java"
+cask "jiggler"
+cask "karabiner-elements"
+cask "knuff"
+cask "marked"
+cask "nvalt"
+cask "origami-studio"
+cask "osxfuse"
+cask "postman"
+cask "rocket"
+cask "skype"
+cask "smcfancontrol"
+cask "sourcetree"
+cask "spotify"
+cask "teamviewer"
+cask "tokens"
+cask "virtualbox"
+cask "vlc"
+cask "wwdc"
+
+# Mac App Store Applications
+mas "Airmail 3", id: 918858936
+mas "Battery Monitor", id: 836505650
+mas "Clear", id: 504544917
+mas "DaisyDisk", id: 411643860
+mas "Deliveries", id: 924726344
+mas "Dropzone 3", id: 695406827
+mas "EasyOnTheEyes", id: 799584781
+mas "Fluid Browser", id: 1077036385
+mas "Gapplin", id: 768053424
+mas "Icon Slate", id: 439697913
+mas "iMovie", id: 408981434
+mas "JSON Accelerator", id: 511324989
+mas "Kaleidoscope", id: 587512244
+mas "Keynote", id: 409183694
+mas "Memory Cleaner", id: 748212890
+mas "Numbers", id: 409203825
+mas "Optimal Layout", id: 412627292
+mas "Pages", id: 409201541
+mas "Patterns", id: 429449079
+mas "Pixelmator", id: 407963104
+mas "Pocket", id: 568494494
+mas "PopClip", id: 445189367
+mas "ReadKit", id: 588726889
+mas "Realm Browser", id: 1007457278
+mas "Rested", id: 421879749
+mas "Slack", id: 803453959
+mas "Soulver", id: 413965349
+mas "SQLPro for SQLite", id: 586001240
+mas "Xcode", id: 497799835
+mas "Yoink", id: 457622435
