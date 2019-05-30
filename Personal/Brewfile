@@ -1,7 +1,5 @@
 cask_args appdir: "/Applications"
 
-# Command line tools
-
 # Applications
 cask 'bittorrent'
 cask 'torbrowser'
