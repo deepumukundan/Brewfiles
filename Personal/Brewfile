@@ -1,5 +1,15 @@
 cask_args appdir: "/Applications"
 
 # Applications
-cask 'bittorrent'
-cask 'torbrowser'
+cask "airserver"
+cask "cyberduck"
+cask "handbrake"
+cask "hazel"
+cask "iteleport-connect"
+cask "jadengeller-helium"
+cask "karabiner-elements"
+cask "skype"
+cask "spotify"
+cask "teamviewer"
+cask "tokens"
+cask "vlc"
