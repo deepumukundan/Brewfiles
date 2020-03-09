@@ -17,8 +17,6 @@ brew "vapor/tap/vapor"
 
 cask "android-studio"
 cask "charles"
-cask "docker-toolbox"
-cask "docker"
 cask "imagealpha"
 cask "imageoptim"
 cask "postman"
