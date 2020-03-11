@@ -3,6 +3,7 @@ cask_args appdir: "/Applications"
 # Applications
 cask "airserver"
 cask "cyberduck"
+cask "flic"
 cask "handbrake"
 cask "hazel"
 cask "karabiner-elements"

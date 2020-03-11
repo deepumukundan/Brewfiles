@@ -5,13 +5,13 @@
         "revision": "50a4435475f1022242c41d4191f0b4789f67abc8"
       },
       "homebrew/cask-fonts": {
-        "revision": "f03dd6f5fd781b5a1d589241686e12294fafe3c2"
+        "revision": "f0776bb08ddae1720861e2586aeaf7cbee1bbf16"
       },
       "homebrew/cask": {
-        "revision": "c3dd12f58b2afe9a45cf9e7d47050fb114fe86d8"
+        "revision": "6242bbd6a613a520e1c11af84da2ffcba0665cde"
       },
       "homebrew/core": {
-        "revision": "df7231af5887c700041928f987534bb5ee727860"
+        "revision": "f4bf647042d074ad53cc09e2083730abe7dc9e1b"
       },
       "kylef/formulae": {
         "revision": "00757e80d6861651d3dc18bbc978edf9a5d0a8a9"
@@ -502,15 +502,24 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "keyboardcleantool": {
+        "version": "latest",
+        "options": {
+          "full_name": "keyboardcleantool",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     }
   },
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.9",
+        "HOMEBREW_VERSION": "2.2.10",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "df7231af5887c700041928f987534bb5ee727860",
+        "Homebrew/homebrew-core": "f4bf647042d074ad53cc09e2083730abe7dc9e1b",
         "CLT": "11.3.1.0.1.1576735732",
         "Xcode": "11.3.1",
         "macOS": "10.15.3"
